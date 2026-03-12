@@ -17,9 +17,15 @@ Se definieron los siguientes segmentos de red para la sucursal:
 
 La clavde la Arquitectura "router-on-a-Stick" es la creación de subinterfaces lógicas en un mismo puerto físico. A continuación se presenta la evidencia de la configuración detallada para cada departamento:
 
-### 3.1 La Configuración del Gateway para Operaciones (VLAN 10) 
+### 3.1 Configuración del Gateway para Operaciones (VLAN 10) 
 
 Se habilitó la subinterfaz `G0/0.10` con encapsulamiento IEEE 802.1Q para la VLAN 10. Esta interfaz funcionará como la puerta de enlace predeterminada para todos los equipos de red de Operaciones
 
-![Configuración CLI VLAN 10](
+![Configuración CLI VLAN 10](configuracion_VLAN10.png)
+
+### 3.2 Configuración del Gateway para Administración (VLAN 20)
+
+Continuando el proceso, se configuró la subinterfaz `G0/0.20` para la red Administración. Es crucial notar que cada subinterfaz posee su propia dirección IP dentro de su respectivo segmento de red para evitar conflictos de enrutamiento
+
+![Configuración CLI VLAN 10](configuracion_VLAN20.png)
 
