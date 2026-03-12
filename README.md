@@ -27,7 +27,7 @@ Se habilitó la subinterfaz `G0/0.10` con encapsulamiento IEEE 802.1Q para la VL
 
 Continuando el proceso, se configuró la subinterfaz `G0/0.20` para la red Administración. Es crucial notar que cada subinterfaz posee su propia dirección IP dentro de su respectivo segmento de red para evitar conflictos de enrutamiento
 
-![Configuración CLI VLAN 10](configuracion_VLAN20.png)
+![Configuración CLI VLAN 20](configuracion_VLAN20.png)
 
 ## 4. Validación de Conectividad
 
@@ -35,4 +35,13 @@ Se confirmó el enrutamiento exitoso mediante pruebas de ICMP (Ping) entre equip
 
 **Prueba:** PCOPERACIONES (10.2) -> PCADMI (20.2)
 - **Resultado:** Exitoso (100% de respuesta tras ARP)
+
+![Prueba de Ping Exitoso](Pingexitoso.png
+
+## Habilidades y Tecnologías aplicadas:
+* **Cisco IOS:** Configuración avanzada de interfaces y subinterfaces.
+* **IEEE 802.1Q:** Implementación de protocolos de encapsulamiento para Trunking.
+* **Diseño de Redes:** Segmentación lógica mediante VLANs para optimización de tráfico.
+* **Troubleshooting:** Diagnóstico de conectividad Inter-VLAN y resolución de errores de sintaxis en CLI
+* **Documentación Técnica:** Gestión de repositorios y control de versiones en GitHub.
 
