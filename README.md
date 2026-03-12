@@ -47,3 +47,5 @@ Se confirmó el enrutamiento exitoso mediante pruebas de ICMP (Ping) entre equip
 * **Troubleshooting:** Diagnóstico de conectividad Inter-VLAN y resolución de errores de sintaxis en CLI
 * **Documentación Técnica:** Gestión de repositorios y control de versiones en GitHub.
 
+## Recursos del proyecto
+* [Descargar LAB2 Enrutamiento-Inter VLAN.pkt](./LAB2%20Enrutamiento-Inter%20VLAN.pkt)
