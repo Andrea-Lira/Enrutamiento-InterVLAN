@@ -29,3 +29,10 @@ Continuando el proceso, se configuró la subinterfaz `G0/0.20` para la red Admin
 
 ![Configuración CLI VLAN 10](configuracion_VLAN20.png)
 
+## 4. Validación de Conectividad
+
+Se confirmó el enrutamiento exitoso mediante pruebas de ICMP (Ping) entre equipos de distintas VLANS.
+
+**Prueba:** PCOPERACIONES (10.2) -> PCADMI (20.2)
+- **Resultado:** Exitoso (100% de respuesta tras ARP)
+
