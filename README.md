@@ -13,3 +13,13 @@ Se definieron los siguientes segmentos de red para la sucursal:
 | **Operaciones** | 10 | G0/0.10 | 192.168.10.1 | 255.255.255.0 |
 | **Administración** | 20 | G0/0.20 | 192.168.20.1 | 255.255.255.0 |
 
+## 3. Implementación en Router (Cisco IOS)
+
+La clavde la Arquitectura "router-on-a-Stick" es la creación de subinterfaces lógicas en un mismo puerto físico. A continuación se presenta la evidencia de la configuración detallada para cada departamento:
+
+### 3.1 La Configuración del Gateway para Operaciones (VLAN 10) 
+
+Se habilitó la subinterfaz `G0/0.10` con encapsulamiento IEEE 802.1Q para la VLAN 10. Esta interfaz funcionará como la puerta de enlace predeterminada para todos los equipos de red de Operaciones
+
+![Configuración CLI VLAN 10](
+
