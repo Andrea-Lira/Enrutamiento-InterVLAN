@@ -21,7 +21,9 @@ La clavde la Arquitectura "router-on-a-Stick" es la creación de subinterfaces l
 
 Se habilitó la subinterfaz `G0/0.10` con encapsulamiento IEEE 802.1Q para la VLAN 10. Esta interfaz funcionará como la puerta de enlace predeterminada para todos los equipos de red de Operaciones
 
-![Configuración CLI VLAN 10](configuracion_VLAN10.png)
+![Configuración CLI VLAN 10](confiiguracion_VLAN10.png)
+
+**Nota técnica:" En la captura superior se observa la corrección manual tras un error de sintaxxis inicial. Este proceso validó la importancia de la precisión en la nomeclatura de subinterfaces para el correcto funcionamiento del stick del router
 
 ### 3.2 Configuración del Gateway para Administración (VLAN 20)
 
