@@ -23,7 +23,7 @@ Se habilitó la subinterfaz `G0/0.10` con encapsulamiento IEEE 802.1Q para la VL
 
 ![Configuración CLI VLAN 10](confiiguracion_VLAN10.png)
 
-**Nota técnica:" En la captura superior se observa la corrección manual tras un error de sintaxxis inicial. Este proceso validó la importancia de la precisión en la nomeclatura de subinterfaces para el correcto funcionamiento del stick del router
+**Nota técnica:** En la captura superior se observa la corrección manual tras un error de sintaxxis inicial. Este proceso validó la importancia de la precisión en la nomeclatura de subinterfaces para el correcto funcionamiento del stick del router
 
 ### 3.2 Configuración del Gateway para Administración (VLAN 20)
 
@@ -38,7 +38,7 @@ Se confirmó el enrutamiento exitoso mediante pruebas de ICMP (Ping) entre equip
 **Prueba:** PCOPERACIONES (10.2) -> PCADMI (20.2)
 - **Resultado:** Exitoso (100% de respuesta tras ARP)
 
-![Prueba de Ping Exitoso](Pingexitoso.png
+![Prueba de Ping Exitoso](Pingexitoso.png)
 
 ## Habilidades y Tecnologías aplicadas:
 * **Cisco IOS:** Configuración avanzada de interfaces y subinterfaces.
